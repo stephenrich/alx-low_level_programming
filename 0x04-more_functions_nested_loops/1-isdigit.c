@@ -1,15 +1,10 @@
 #include "main.h"
-
-
 /**
-* _isupper - checks for a digit (0 through 9).
-* @c: input character.
+* _isdigit - checks for a digit (0 through 9).
+* @c: input number.
 * Return: 1 if c is a digit, 0 if otherwise.
 */
-
-
-int _isupper(int c)
-
+int _isdigit(int c)
 {
 
 	if (c >= 48 && c <= 57)
